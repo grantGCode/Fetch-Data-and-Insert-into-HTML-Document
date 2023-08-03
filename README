@@ -1,0 +1,15 @@
+Instructions:
+Start by creating a new HTML file and a corresponding JavaScript file.
+In the HTML file, create a simple structure with a <div> element where you will insert the fetched
+data.
+
+In your JavaScript file, use the Fetch API to retrieve data from the following API endpoint:
+'https://jsonplaceholder.typicode.com/todos/1'.
+
+The response from the API will be a JSON object with this structure:
+
+{ "userId": 1, "id": 1, "title": "delectus aut autem", "completed": false }
+
+
+Parse the fetched data and interpolate it into your HTML file. For each key-value pair in the
+data, create a new paragraph (<p>) with the content being the key and value.
